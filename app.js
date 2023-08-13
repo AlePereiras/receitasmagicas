@@ -141,7 +141,7 @@ search_icon.addEventListener('click', async () => {
         meals.forEach(meal => {
             addMeal(meal)
         })
-        document.querySelector('.meals-container > h2').innerText = 'Search Results...'
+        document.querySelector('.meals-container > h2').innerText = 'Resultados da pesquisa...'
     } else {
         document.querySelector('.meals-container > h2').innerText = 'No Meals Found'
         mealEl_container.innerHTML = '';

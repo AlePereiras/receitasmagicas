@@ -1,10 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Borel', cursive;
 }
 
 body {
@@ -12,23 +13,29 @@ body {
     place-items: center;
     min-height: 100vh;
     background-color: var(--primary-clr);
-    padding: 3rem 0;
+}
+
+.logo {
+    color: #000000;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Borel', cursive;;
 }
 
 :root {
-    --primary-clr: #161616;
-    --primary-rgba-7: rgba(0, 0, 0, .4);
+    --primary-clr: #FFDEAD;
+    --primary-rgba-7: rgba(255,222,173);
 
-    --secondary-clr: #fff9f9;
-    --secondary-rgba-3: rgba(255, 255, 255, .3);
+    --secondary-clr: #000000;
+    --secondary-rgba-3: rgba(0, 0, 0);
 }
 
 .light-theme {
-    --primary-clr: #fff9f9;
-    --primary-rgba-7: rgba(255, 255, 255, .4);
+    --primary-clr: #E0FFFF;
+    --primary-rgba-7: rgba(224,255,255);
 
-    --secondary-clr: #161616;
-    --secondary-rgba-3: rgba(0, 0, 0, .3);
+    --secondary-clr: #000000;
+    --secondary-rgba-3: rgba(0, 0, 0);
 }
 
 .card {
@@ -285,7 +292,7 @@ body {
 }
 
 .meal-name i {
-    color: #ff0000;
+    color: #696969;
     text-shadow: none;
     cursor: pointer;
 }
@@ -389,3 +396,4 @@ body {
         display: none;
     }
 }
+
