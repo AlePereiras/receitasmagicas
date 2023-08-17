@@ -100,7 +100,6 @@ body {
     color: var(--secondary-clr);
     transition: 200ms ease-in-out width,
         200ms ease-in-out padding;
-        left: 17px;
 }
 
 .search-icon {
@@ -120,7 +119,6 @@ body {
     cursor: pointer;
     transition: 200ms ease-in-out background-color,
         200ms ease-in-out color;
-        left: 17px;
         
 }
 
